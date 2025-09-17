@@ -40,12 +40,14 @@ which zig
 nix develop
 which zig
 zig run hello.zig
-``
+```
+
 ```
 exit
 # create .envrc
 direnv allow
 ```
+
 mention fedimint dev env
 - similar to what people use docker for
 - direnv
@@ -63,6 +65,9 @@ bitcoin core derivation: https://github.com/NixOS/nixpkgs/blob/64c777559b1febab6
 
 my configs
 - homebrew replacement
+- linux on mac:
+  - show demo
+  - inspired by https://github.com/mitchellh/nixos-config
 - nice server.
   - make a pr changing login.
 
