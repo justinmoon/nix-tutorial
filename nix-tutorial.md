@@ -51,6 +51,14 @@ mention fedimint dev env
 - direnv
 - dev, ci, and release build environment is the same
 
+builds:
+- derivation
+- nix build .#
+- look at result
+- ./result/bin/hello
+- nix profile install .
+- how to uninstall?
+
 bitcoin core derivation: https://github.com/NixOS/nixpkgs/blob/64c777559b1febab633b0da7826ee666f6ef3c49/pkgs/applications/blockchains/bitcoin/default.nix
 
 my configs
@@ -59,6 +67,7 @@ my configs
 
 benefits
 - my configs are my system
+- feels very different from ubuntu server where imo shit goes bad over time. and i don't want to do fancy kubernetes stuff.
 - easy to vibe-code in a way that i can control the entropy
 - nix used to be hard to do b/c the syntax, but vibing fixes that
 
